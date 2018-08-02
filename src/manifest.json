@@ -3,15 +3,16 @@
   "bundleVersion": 1,
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "my-command-identifier",
-      "script": "./my-command.js"
+      "name": "Set Elevation",
+      "identifier": "set-elevation",
+      "script": "./my-command.js",
+      "shortcut": "option shift e"
     }
   ],
   "menu": {
     "title": "WtElevation",
     "items": [
-      "my-command-identifier"
+      "set-elevation"
     ]
   }
 }
