@@ -99,7 +99,7 @@ exports['default'] = function (context) {
       x: '0',
       y: '0',
       blur: '0',
-      spread: 1
+      spread: '1'
     }, {
       color: 'rgba(0, 0, 0, 0.1)',
       x: '0',
@@ -116,28 +116,37 @@ var sketch = __webpack_require__(1);
 var UI = __webpack_require__(2);
 
 function calcShadowY(elevation) {
+  var val = 0;
   if (elevation === 0) {
-    return '0';
+    val = 0;
+  } else {
+    val = elevation / 2;
   }
-  return elevation / 2;
+  return val.toString();
 }
 
 function calcShadowBlur(elevation) {
+  var val = 0;
   if (elevation === 0) {
-    return '0';
+    val = 0;
   } else if (elevation < 8) {
-    return elevation * 1.5;
+    val = elevation * 1.5;
   } else if (elevation < 16) {
-    return elevation / 2 + 8;
+    val = elevation / 2 + 8;
+  } else {
+    val = elevation;
   }
-  return elevation;
+  return val.toString();
 }
 
 function calcShadowSpread(elevation) {
+  var val = 0;
   if (elevation === 0) {
-    return '1';
+    val = 1;
+  } else {
+    val = 0;
   }
-  return '0';
+  return val.toString();
 }
 
 /***/ }),

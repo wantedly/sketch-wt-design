@@ -2,30 +2,42 @@ const sketch = require('sketch')
 const UI = require('sketch/ui')
 
 function calcShadowY(elevation) {
+  let val = 0
   if(elevation === 0) {
-    return '0'
+    val = 0
   }
-  return elevation / 2
+  else {
+    val = elevation / 2
+  }
+  return val.toString()
 }
 
 function calcShadowBlur(elevation) {
+  let val = 0
   if(elevation === 0) {
-    return '0'
+    val = 0
   }
   else if(elevation < 8) {
-    return elevation * 1.5
+    val = elevation * 1.5
   }
   else if(elevation < 16) {
-    return elevation / 2 + 8
+    val = elevation / 2 + 8
   }
-  return elevation
+  else {
+    val = elevation
+  }
+  return val.toString()
 }
 
 function calcShadowSpread(elevation) {
+  let val = 0
   if(elevation === 0) {
-    return '1'
+    val = 1
   }
-  return '0'
+  else {
+    val = 0
+  }
+  return val.toString()
 }
 
 export default function(context) {
@@ -49,7 +61,7 @@ export default function(context) {
         x: '0',
         y: '0',
         blur: '0',
-        spread: 1,
+        spread: '1',
       },
       {
         color: 'rgba(0, 0, 0, 0.1)',
