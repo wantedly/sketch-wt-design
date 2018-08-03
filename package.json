@@ -1,14 +1,13 @@
 {
   "name": "wtdesign",
   "description": "Sketch plugin for Wantedly Design System",
-  "version": "0.1.0",
+  "version": "0.1.1-0",
   "engines": {
     "sketch": ">=3.0"
   },
-  "repository" :
-  {
-    "type" : "git",
-    "url" : "https://github.com/wantedly/sketch-wt-design.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wantedly/sketch-wt-design.git"
   },
   "skpm": {
     "name": "WtDesign",
