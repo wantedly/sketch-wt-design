@@ -3,23 +3,25 @@
   "bundleVersion": 1,
   "commands": [
     {
-      "name": "Set Elevation",
-      "identifier": "set-elevation",
       "script": "my-command.js",
-      "shortcut": "command control s"
+      "shortcut": "command control s",
+      "identifier": "set-elevation",
+      "description": "Set elevation to selected layers.",
+      "icon": "icons/runner.png",
+      "name": "Set Elevation"
     }
   ],
   "menu": {
-    "title": "Wantedly",
+    "title": "Wantedly Design System",
     "items": [
       "set-elevation"
     ]
   },
+  "icon": "wantedly_mark.png",
   "version": "0.1.1-0",
   "description": "Sketch plugin for Wantedly Design System",
-  "name": "WtDesign",
+  "name": "Wantedly Design System",
   "disableCocoaScriptPreprocessor": true,
   "appcast": "https://raw.githubusercontent.com/wantedly/sketch-wt-design/master/.appcast.xml",
-  "author": "Yoshinori Kawasaki",
-  "authorEmail": "yoshi@wantedly.com"
+  "author": "Wantedly, Inc."
 }

@@ -10,9 +10,12 @@
     "url": "https://github.com/wantedly/sketch-wt-design.git"
   },
   "skpm": {
-    "name": "WtDesign",
+    "name": "Wantedly Design System",
     "manifest": "src/manifest.json",
-    "main": "wtdesign.sketchplugin"
+    "main": "wtdesign.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ]
   },
   "scripts": {
     "build": "skpm-build",
@@ -45,5 +48,5 @@
       "git add"
     ]
   },
-  "author": "Yoshinori Kawasaki <yoshi@wantedly.com>"
+  "author": "Wantedly, Inc."
 }
