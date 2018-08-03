@@ -3,21 +3,22 @@
   "bundleVersion": 1,
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "my-command-identifier",
-      "script": "my-command.js"
+      "name": "Set Elevation",
+      "identifier": "set-elevation",
+      "script": "my-command.js",
+      "shortcut": "command control s"
     }
   ],
   "menu": {
-    "title": "WtElevation",
+    "title": "Wantedly",
     "items": [
-      "my-command-identifier"
+      "set-elevation"
     ]
   },
   "version": "0.1.0",
-  "name": "WtElevation",
+  "name": "WtDesign",
   "disableCocoaScriptPreprocessor": true,
   "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
   "author": "Yoshinori Kawasaki",
-  "authorEmail": "ykawasaki@gmail.com"
+  "authorEmail": "yoshi@wantedly.com"
 }

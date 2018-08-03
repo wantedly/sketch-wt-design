@@ -1,13 +1,13 @@
 {
-  "name": "wtelevation",
+  "name": "wtdesign",
   "version": "0.1.0",
   "engines": {
     "sketch": ">=3.0"
   },
   "skpm": {
-    "name": "WtElevation",
+    "name": "WtDesign",
     "manifest": "src/manifest.json",
-    "main": "wtelevation.sketchplugin"
+    "main": "wtdesign.sketchplugin"
   },
   "scripts": {
     "build": "skpm-build",
@@ -40,5 +40,5 @@
       "git add"
     ]
   },
-  "author": "Yoshinori Kawasaki <ykawasaki@gmail.com>"
+  "author": "Yoshinori Kawasaki <yoshi@wantedly.com>"
 }
