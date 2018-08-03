@@ -15,10 +15,11 @@
       "set-elevation"
     ]
   },
-  "version": "0.1.0",
+  "version": "0.1.1-0",
+  "description": "Sketch plugin for Wantedly Design System",
   "name": "WtDesign",
   "disableCocoaScriptPreprocessor": true,
-  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "appcast": "https://raw.githubusercontent.com/wantedly/sketch-wt-design/master/.appcast.xml",
   "author": "Yoshinori Kawasaki",
   "authorEmail": "yoshi@wantedly.com"
 }
