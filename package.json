@@ -4,6 +4,7 @@
   "engines": {
     "sketch": ">=3.0"
   },
+  "repository": "github:wantedly/sketch-wt-design",
   "skpm": {
     "name": "WtDesign",
     "manifest": "src/manifest.json",
