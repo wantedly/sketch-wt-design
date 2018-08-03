@@ -1,7 +1,7 @@
 {
   "name": "wtdesign",
   "description": "Sketch plugin for Wantedly Design System",
-  "version": "0.1.1-0",
+  "version": "0.1.1",
   "engines": {
     "sketch": ">=3.0"
   },
