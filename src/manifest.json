@@ -8,7 +8,7 @@
       "identifier": "set-elevation",
       "description": "Set elevation to selected layers.",
       "icon": "icons/runner.png",
-      "name": "Set Elev"
+      "name": "Set Elevation"
     }
   ],
   "menu": {
