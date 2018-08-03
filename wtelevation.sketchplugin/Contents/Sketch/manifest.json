@@ -6,11 +6,11 @@
       "name": "Set Elevation",
       "identifier": "set-elevation",
       "script": "my-command.js",
-      "shortcut": "option shift e"
+      "shortcut": "command control s"
     }
   ],
   "menu": {
-    "title": "WtElevation",
+    "title": "Wantedly",
     "items": [
       "set-elevation"
     ]
