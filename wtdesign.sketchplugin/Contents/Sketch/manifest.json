@@ -16,7 +16,7 @@
     ]
   },
   "version": "0.1.0",
-  "name": "WtElevation",
+  "name": "WtDesign",
   "disableCocoaScriptPreprocessor": true,
   "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
   "author": "Yoshinori Kawasaki",
