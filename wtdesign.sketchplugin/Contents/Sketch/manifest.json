@@ -3,12 +3,12 @@
   "bundleVersion": 1,
   "commands": [
     {
-      "name": "Set Elevation",
-      "identifier": "set-elevation",
       "script": "my-command.js",
       "shortcut": "command control s",
+      "identifier": "set-elevation",
       "description": "Set elevation to selected layers.",
-      "icon": "wantedly_mark.png"
+      "icon": "icons/runner.png",
+      "name": "Set Elev"
     }
   ],
   "menu": {
